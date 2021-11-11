@@ -10,6 +10,8 @@ export default function user(state = {
       recent_replies: []
     }
   }
+
+
 }, action) {
   switch (action.type) {
     case "USER_UPDATA":
